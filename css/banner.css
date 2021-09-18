@@ -1,0 +1,25 @@
+#banner{
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+}
+
+
+#banner .contenedor{
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #FF4848
+    
+}
+
+#banner h2 {
+    font-size: 50px;
+
+}
+

@@ -1,0 +1,23 @@
+#info {
+    background: #333;
+    color:  #FDD2BF;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-ferreteria {
+    margin: 25px;
+}
+
+.info-ferreteria img{
+    width: 180px;
+    height: 180px;
+    border-radius: 15%;
+    border: 5px solid #A12568;
+}

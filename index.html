@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferreteria</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+ <header>
+     <div class="contenedor">
+         <h1><img src="icons/dulce.png" alt="" height="30"> Ferreteria "El Tornillo Feliz"</h1>
+         <input type="checkbox" name="" id="menu-bar">
+         <label for="menu-bar"><img src="icons/cerrar.png" alt="" height="30"></label>
+         <nav class="menu"> 
+            <a href="#">Inicio</a>
+            <a href="#">Materiales</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </nav class= "menu">
+    </div>
+</header>
+<main>
+    <section id= "banner">
+        <img src="imagen/baner.jpg" alt="">
+        <div class="contenedor">
+            <h2>TODO TIPO DE HERRAMIENTAS</h2>
+            <p>al mejor precio</p>
+
+        </div>
+    </section>
+    <section id= "bienvenidos">
+        <h2>BIENVENIDOS A LA FERRETERIA</h2>
+        <P>La Ferreteria "El Tornillo Feliz", ofrece diversidad de herramientas y materiales de su necesidad</P>
+    </section>
+    <section id="blog">
+        <h3>Productos en Venta</h3>
+        <div  class="contenedor">
+           <article>
+               <img src="imagen/comba.jpeg" alt="">
+               <h4>Alambre</h4>
+           </article>
+           <article>
+            <img src="imagen/cemento.jpg" alt="">
+            <h4>Escoge tu cemento preferido</h4>
+        </article>
+        <article>
+            <img src="imagen/alicate.jpg" alt="">
+            <h4>Alicate</h4>
+        </article>
+        </div>
+    </section>
+    <section id="info">
+        <h3>ES UN PLACER CUBRIR TUS NECESIDADES</h3>
+        <div class="contenedor">
+            <div class="info-ferreteria">
+                <img src="imagen/carretilla.jpeg">
+                <h4>Carretilla</h4>
+            </div>
+            <div class="info-ferreteria">
+                <img src="imagen/serrucho.jpeg">
+                <h4>Serrucho</h4>
+            </div>
+            <div class="info-ferreteria">
+                <img src="imagen/pintura.jpeg">
+                <h4>Pintura</h4>
+            </div>
+            <div class="info-ferreteria">
+                <img src="imagen/clavos.jpeg">
+                <h4>Carretilla</h4>
+            </div>
+            <div class="info-ferreteria">
+                <img src="imagen/alambre.jpg">
+                <h4>Alambre</h4>
+            </div>
+            <div class="info-ferreteria">
+                <img src="imagen/martillo.png">
+                <h4>Martillo</h4>
+            </div>
+            <div class="info-ferreteria">
+                <img src="imagen/destornillador.jpg">
+                <h4>Destornillador</h4>
+            </div>
+            <div class="info-ferreteria">
+                <img src="imagen/quitasarro.jpeg">
+                <h4>Quita Sarro</h4>
+            </div>                                            
+        </div>
+    </section>
+<main>
+ </header>   
+
+ <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "dd884620-6174-4f3f-ac87-b5be69bc1976", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "a19b4591-e740-4f48-b0e6-ed2c6163a323", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+        (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+        "/WatsonAssistantChatEntry.js"
+      document.head.appendChild(t);
+    });
+  </script>
+
+</body>
+</html>
